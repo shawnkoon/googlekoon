@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
 
-import { Avatar } from '@mui/material';
-import AppsIcon from '@mui/icons-material/Apps';
+import { Avatar, Button } from '@mui/material';
+import AppsRoundedIcon from '@mui/icons-material/AppsRounded';
 
 import { Link } from 'react-router-dom';
 
@@ -20,8 +20,8 @@ function Home() {
         <div className="home__headerRight">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
-          <AppsIcon />
-          <Avatar />
+          <AppsRoundedIcon />
+          <Button variant="contained">Sign in</Button>
         </div>
       </div>
 
